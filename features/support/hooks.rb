@@ -14,5 +14,6 @@ end
 
 
 at_exit do
+  # After all features have finished running
   browser.quit
 end
